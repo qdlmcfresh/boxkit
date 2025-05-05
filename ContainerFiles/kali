@@ -1,8 +1,8 @@
 FROM docker.io/kalilinux/kali-rolling:latest
 LABEL com.github.containers.toolbox="true" \
-    usage="This image is meant to be used with the toolbox or distrobox command" \
-    summary="An example ContainerFile to demonstrate multiple image builds." \
-    maintainer="qdlmcfresh@gmail.com"
+      usage="This image is meant to be used with the toolbox or distrobox command" \
+      summary="An example ContainerFile to demonstrate multiple image builds." \
+      maintainer="qdlmcfresh@gmail.com"
 
 # Copy the setup scripts and package list
 COPY ../scripts/kali.sh /

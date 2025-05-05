@@ -64,11 +64,6 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           oci: true
 
-      - name: Show image size
-        run: |
-          echo "Image size for '${{ matrix.containerfile }}:${{ env.IMAGE_TAGS }}':"
-          buildah inspect ${{ matrix.containerfile }} | jq '.Size' | numfmt --to=iec --suffix=B
-
       # Workaround bug where capital letters in your GitHub username make it impossible to push to GHCR.
       # https://github.com/macbre/push-to-ghcr/issues/12
       - name: Lowercase Registry

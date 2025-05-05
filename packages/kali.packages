@@ -1,17 +1,38 @@
-kali-tools-top10
-kali-tools-passwords
-kali-tools-reverse-engineering
-kali-tools-exploitation
-kali-tools-web
-kali-tools-crypto-stego
-kali-tools-forensics
-kali-tools-information-gathering
-kali-tools-vulnerability
 ghidra
 firefox-esr
+
+# Reverse Engineering
 gdb
+radare2
+binwalk
+apktool
+upx
+edb-debugger
+imhex
+
+# Crypto
+hashcat
+john
+hydra
+
+# Web
+sqlmap
+nikto
+wfuzz
+gobuster
+whatweb
+nmap
+
+# Pwn
+python3-pwntools
+ropper
+patchelf
+checksec
+
+# Essentials
 make
 curl
 git
 neovim
 ripgrep
+wordlists

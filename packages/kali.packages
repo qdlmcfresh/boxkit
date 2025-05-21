@@ -30,9 +30,13 @@ patchelf
 checksec
 
 # Essentials
+netcat-traditional
 make
 curl
 git
 neovim
 ripgrep
 wordlists
+
+# Terminal
+kitty
